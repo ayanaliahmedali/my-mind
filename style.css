@@ -1,0 +1,804 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans",Arial,sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    font-size: 18px;
+    color: rgba(74, 84, 101, 0.8);
+    padding: 15px;
+}
+
+button.login {
+    padding: 15px;
+    border: none;
+    background: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+button.signup {
+    padding: 12px 20px;
+    margin-right: 44px;
+    border: none;
+    border-radius: 42px;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    background: #FF5924;
+}
+
+.flow {
+    font-size: 54px;
+    text-align: center;
+    line-height: 174%;
+    margin-top: 60px;
+}
+
+.half-button {
+    display: flex;
+    align-items: center;
+    margin-left: 27%;
+    font-size: 21px;
+    margin-top: 68px;
+    color: rgba(74, 84, 101, 0.8);
+}
+
+button.notes {
+    margin-right: 20px;
+    padding: 12px 15px;
+    border-radius: 26px;
+    margin-left: 12px;
+    font-size: 18px;
+    color: #FF5924;
+    border: 1px solid #FF5924;
+    background: white;
+}
+
+button.bookmarks {
+        margin-right: 20px;
+        padding: 12px 15px;
+        border-radius: 26px;
+        margin-left: -4px;
+        font-size: 18px;
+        color: pink;
+        border: 1px solid pink;
+        background: white;
+        font-weight: 600;
+    
+}
+
+button.inspiration {
+    margin-right: 20px;
+    padding: 12px 15px;
+    border-radius: 26px;
+    margin-left: -4px;
+    font-size: 18px;
+    color: #8ed1fc;
+    border: 1px solid #8ed1fc;
+    background: white;
+    font-weight: 600;
+}
+
+.all-button {
+    display: flex;
+    align-items: center;
+    margin-left: 28%;
+    font-size: 21px;
+    margin-top: 15px;
+    color: rgba(74, 84, 101, 0.8);
+}
+
+button.articles {
+    margin-right: 15px;
+    padding: 12px 25px;
+    border-radius: 26px;
+    margin-left: -46px;
+    font-size: 18px;
+    color: #FF5924;
+    border: 1px solid #FF5924;
+    background: white;
+    font-weight: 600;
+}
+
+button.images {
+    margin-right: 15px;
+    padding: 12px 25px;
+    border-radius: 26px;
+    margin-left: -46px;
+    font-size: 18px;
+    color: #fcb900;
+    border: 1px solid #fcb900;
+    background: white;
+    font-weight: 600;
+}
+
+video#video2 {
+    width: 17%;
+    margin-left: 77%;
+    margin-top: -25%;
+    border-radius: 15px;
+    box-shadow: 0px 10px 5px 12px lightgray;
+}
+
+video#video1 {
+    width: 76%;
+    margin-left: 13%;
+    border-radius: 14px;
+    margin-top: 66px;
+}
+
+.paragraph h2 {
+    margin-top: 17%;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.in p {
+    margin-left: 13%;
+    margin-top: 5%;
+    font-size: 2.5em;
+    color: rgb(58, 71, 90);
+    width: 77%;
+}
+
+span {
+    font-size: 68px;
+}
+
+span#\31 {
+    font-size: 110%;
+    font-weight: 600;
+}
+
+ul.text-align li {
+    align-items: center;
+    display: flex;
+    font-size: 2.5em;
+    color: #3A475A;
+}
+
+li svg {
+    margin-right: 22px;
+}
+
+ul.text-align {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin-left: 31%;
+    margin-top: 9%;
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://mymind.com/wp-content/uploads/2023/05/mymind_manifesto_neue-1.jpg);
+    text-align: center;
+    margin-top: 13%;
+}
+
+.image img {
+    margin-bottom: 7%;
+}
+
+button.try.it.out {
+    margin-bottom: 3%;
+    padding: 12px 26px;
+    margin-right: -19px;
+    border: none;
+    border-radius: 42px;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    background: #FF5924;
+}
+
+.align-item h1 {
+    margin-top: 18%;
+    text-align: center;
+    font-size: 68px;
+}
+
+.align-item p {
+    font-size: 1.1111111111111112rem;
+    text-align: center;
+    padding-right: 321px;
+    padding-left: 331px;
+    margin-top: 56px;
+    color: rgb(74, 84, 101);
+    letter-spacing: 0rem;
+    line-height: 1.556rem;
+}
+
+video#smart-bookmarking-video {
+    max-width: 100%;
+}
+
+.see {
+    display: flex;
+    align-items: center;
+    margin-left: 33%;
+    gap: 3%;
+}
+
+section.padding-block-900 {
+    margin-top: 18%;
+    background: #f6f4f2;
+}
+
+section.padding-block-900 h1 {
+    color: #FF5924;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 11%;
+}
+
+section.padding-block-900 h2 {
+    text-align: center;
+    font-size: 4.667rem;
+    line-height: 5.111rem;
+    margin-right: 136px;
+    margin-left: 126px;
+    margin-top: 54px;
+}
+
+section.padding-block-900 p {
+    text-align: center;
+    margin-left: 29%;
+    margin-right: 27%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 4%;
+    color: rgb(74, 84, 101);
+    line-height: 26px;
+}
+
+video#adding-to-mymind-video {
+    max-width: 100%;
+    margin-top: 19%;
+}
+
+section.padding-block-800 {
+    background-color: rgb(255, 89, 36);
+}
+
+section.padding-block-800 p {
+    text-align: center;
+    padding-top: 12%;
+    letter-spacing: 3px;
+    color: rgb(0,0,0);
+}
+
+section.padding-block-800 h1 {
+    text-align: center;
+    font-size: 55px;
+    margin-top: 50px;
+}
+
+section.padding-block-800 p.white {
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    margin-right: 24%;
+    margin-left: 27%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.watch-this-video {
+    display: flex;
+    align-items: center;
+    padding-top: 48px;
+    margin-left: 40%;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    gap: 2%;
+}
+
+.watch-this-video p {
+    padding-left: 12px;
+}
+
+video#searching-mymind-video {
+    max-width: 100%;
+    margin-bottom: 38%;
+}
+
+section.padding-block-700 {
+    padding: 36px;
+    border-radius: 12px;
+    margin-top: -295px;
+    background: white;
+    margin-left: 23px;
+    width: 96%;
+    text-align: center;
+}
+
+section.padding-block-700 h1 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 62px;
+    color: rgb(255, 89, 36);
+}
+
+section.padding-block-700 h2 {
+    font-size: 58px;
+    margin-top: 56px;
+}
+
+img.content {
+    height: 0%;
+}
+
+img.feature {
+    border-radius: 16px;
+    margin-left: 50px;
+}
+
+.two-img {
+    display: flex;
+    margin-top: 9%;
+}
+
+.content {
+    background-color: #dde9d3;
+    padding-top: 2.777778rem;
+    padding-bottom: 22.777778rem;
+    border-radius: 0.8888888888888888rem;
+}
+
+section.padding-block-700 .text h1 {
+    color: black;
+    font-size: 38px;
+    margin-top: -36%;
+    width: 29%;
+    text-align: start;
+    margin-left: 30px;
+}
+
+.footer-paragraph p {
+    margin-left: 3%;
+    margin-right: 68%;
+    margin-top: 3%;
+    color: rgb(74, 84, 101);
+    text-align: start;
+    line-height: 27px;
+    font-size: 22px;
+}
+
+.features {
+    background-color: #e5eaf2;
+    padding-top: 2.777778rem;
+    padding-bottom: 22.777778rem;
+    border-radius: 0.8888888888888888rem;
+    margin-left: 39px;
+}
+
+section.padding-block-700 .marking h1 {
+    color: black;
+    font-size: 38px;
+    margin-top: -27%;
+    width: 45%;
+    text-align: start;
+    margin-left: 47%;
+}
+
+.marking.paragraph p {
+    margin-left: 47%;
+    margin-right: 6%;
+    margin-top: 8%;
+    color: rgb(74, 84, 101);
+    text-align: start;
+    line-height: 27px;
+    font-size: 22px;
+}
+
+.content-wrapper {
+    display: flex;
+    margin-top: 7%;
+}
+
+.instant {
+    background-color: #f3f0e7;
+    padding-top: 2.777778rem;
+    padding-bottom: 22.777778rem;
+    border-radius: 0.8888888888888888rem;
+    margin-left: 59px;
+    width: 108%;
+}
+
+section.padding-block-600 .distractions h1 {
+    color: black;
+    font-size: 41px;
+    margin-top: -29%;
+    width: 29%;
+    text-align: start;
+    margin-left: 94px;
+}
+
+.distractions-paragraph p {
+    margin-left: 9%;
+    margin-right: 46%;
+    margin-top: 3%;
+    color: rgb(74, 84, 101);
+    text-align: start;
+    line-height: 32px;
+    font-size: 22px;
+}
+
+.read {
+    background-color: #dbe6fb;
+    padding-top: 2.777778rem;
+    padding-bottom: 22.777778rem;
+    border-radius: 0.8888888888888888rem;
+    margin-left: 39px;
+    margin-right: 47px;
+}
+
+section.padding-block-600 .collection h1 {
+    color: black;
+    font-size: 41px;
+    margin-top: -31%;
+    width: 29%;
+    text-align: start;
+    margin-left: 64%;
+}
+
+.collection-paragraph p {
+    margin-left: 64%;
+    margin-right: 9%;
+    margin-top: 1%;
+    color: rgb(74, 84, 101);
+    text-align: start;
+    line-height: 32px;
+    font-size: 22px;
+}
+
+.wrapper {
+    border-radius: 21px;
+    border: 1px solid rgba(228, 232, 236, 0.5);
+    box-shadow: 0px 4px 7px -4px rgba(140, 142, 151, 0.32);
+    background-color: #FCFCFE;
+    margin-top: 15%;
+    margin-left: 6%;
+    width: 90%;
+}
+
+.save-link h1 {
+    margin-top: -38%;
+    font-size: 40px;
+    width: 33%;
+    line-height: 47px;
+    margin-left: 5%;
+}
+
+.save-link p {
+    width: 36%;
+    line-height: 24px;
+    font-size: 22px;
+    margin-left: 5%;
+    margin-top: 4%;
+    color: rgb(74, 84, 101);
+}
+
+.side-img img {
+    margin-top: -46px;
+}
+
+.nav li {
+    font-size: 18px;
+    color: rgba(74, 84, 101, 0.8);
+    padding: 48px;
+    margin-top: 25px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+section.padding-block-400 {
+    background-color: #fff1f1;
+
+}
+.about h1 {
+    font-size: 59px;
+    text-align: center;
+    width: 59%;
+    color: white;
+    margin-left: 20%;
+}
+
+.footer-aria {
+    text-align: center;
+    margin-top: 20%;
+    letter-spacing: 1px;
+}
+
+.flex {
+    text-align: center;
+    margin-top: 12%;
+}
+
+
+
+.flex p {
+    color: rgb(255, 89, 36);
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 4%;
+}
+
+.flex h1 {
+    font-size: 4em;
+}
+
+.footer-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer-nav li {
+    font-size: 20px;
+    color: rgba(74, 84, 101, 0.8);
+    padding: 24px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.vertical-align {
+    background: #ff5925;
+    width: 89%;
+    margin-left: 6%;
+    text-align: center;
+    border-radius: 13px;
+}
+
+.vertical-align h1 {
+    padding-top: 9%;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.vertical-align h2 {
+    font-size: 50px;
+    margin-top: 25px;
+    color: white;
+}
+
+.vertical-align img {
+    width: 89%;
+}
+
+section.padding-block-200 .container-wrapper {
+    text-align: center;
+    padding-left: 24%;
+    font-size: 33px;
+    padding-right: 18%;
+    padding-top: 12%;
+}
+
+p#\31 {
+    padding-top: 14%;
+}
+
+p#\32 {
+    padding-top: 8%;
+}
+
+p#\33 {
+    padding-top: 8%;
+}
+
+p#\34 {
+    padding-top: 8%;
+}
+
+.sign-up-for-free button {
+    padding: 12px 5% 12px 5%;
+    border-radius: 22px;
+    border: none;
+    background: #ff5924;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 39px;
+}
+
+.box {
+    background-image: url(https://mymind.com/wp-content/uploads/2023/05/Closing_statement_bg_new.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.style-img .container-wrapper {
+    display: flex;
+}
+
+.box-1 img {
+    max-width: 85%;
+    border-radius: 14px;
+    margin-left: 9%;
+}
+
+.inbox {
+    margin-left: 9%;
+    margin-top: 5%;
+}
+
+.inbox h1 {
+    color: #3f4854;
+    font-weight: 400;
+}
+
+.inbox p {
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.box-2 img {
+    max-width: 85%;
+    border-radius: 14px;
+    margin-left: 9%;
+}
+
+.comment {
+    margin-left: 9%;
+    margin-top: 5%;
+}
+
+.comment h1 {
+    color: #3f4854;
+    font-weight: 400;
+}
+
+.comment p {
+    font-size: 20px;
+    margin-top: 15px;
+    width: 82%;
+    line-height: 30px;
+}
+
+.box-3 img {
+    max-width: 85%;
+    border-radius: 14px;
+    margin-left: 9%;
+}
+
+.share {
+    margin-left: 9%;
+    margin-top: 5%;
+}
+
+.share h1 {
+    color: #3f4854;
+    font-weight: 400;
+}
+
+.share p {
+    font-size: 20px;
+    margin-top: 15px;
+    width: 82%;
+    line-height: 30px;
+}
+
+/* .carousel {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.holder {
+    padding-top: 7%;
+    font-size: 32px;
+    background: #f0f2f5;
+    border-radius: 12px;
+    padding: 31px;
+    width: 45%;
+    margin-left: 53%;
+}
+
+section.padding-block-50 {
+    background-image: url(https://mymind.com/wp-content/uploads/2023/05/optimised_footer_bg-1.jpg);
+}
+
+section.padding-block-50 .container-wrapper {
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 44px;
+    border-radius: 12px;
+    padding: 40px;
+    background: white;
+}
+
+.holder p {
+    opacity: 0.4;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 11px;
+    letter-spacing: 1px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12%;
+}
+
+.p {
+    font-size: 23px;
+    line-height: 34px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation nav li {
+    padding-left: 3px;
+    font-size: 18px;
+    color: rgba(74, 84, 101, 0.8);
+}
+
+nav h1 {
+    padding-bottom: 11px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
